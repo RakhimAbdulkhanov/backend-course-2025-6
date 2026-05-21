@@ -1,0 +1,11 @@
+Реєстрація речі з фото, назвою, описом — POST /register
+Список усіх речей у JSON з посиланнями на фото — GET /inventory
+Отримати одну річ за ID — GET /inventory/:id
+Оновити назву/опис — PUT /inventory/:id
+Отримати фото — GET /inventory/:id/photo
+Оновити фото — PUT /inventory/:id/photo
+Видалити річ — DELETE /inventory/:id
+Форма реєстрації — GET /RegisterForm.html
+Форма пошуку з прапорцем для фото — GET /SearchForm.html
+Пошук за ID через x-www-form-urlencoded — POST /search
+Swagger-документація — /api-docs
